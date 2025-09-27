@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algorithm Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Algorithm Visualizer</h1>
+        <p>Visualize the 3 sorting algorithms step by step!</p>
+    </header>
+
+    <div class="controls">
+        <button onclick="generateArray()">Generate New Array</button>
+        <select id="algorithm">
+            <option value="bubble">Bubble Sort</option>
+            <option value="selection">Selection Sort</option>
+            <option value="insertion">Insertion Sort</option>
+        </select>
+        <button onclick="sortArray()">Sort</button>
+    </div>
+
+    <div id="array-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>

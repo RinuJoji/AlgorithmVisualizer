@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0 20px;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #282c34;
+    color: white;
+}
+
+.controls {
+    margin: 20px 0;
+}
+
+button, select {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#array-container {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 300px;
+    margin-top: 20px;
+}
+
+.array-bar {
+    margin: 0 2px;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    font-size: 12px;
+}
